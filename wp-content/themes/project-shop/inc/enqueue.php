@@ -1,8 +1,8 @@
 <?php
 /**
- * Understrap enqueue scripts
+ * UnderStrap enqueue scripts
  *
- * @package understrap
+ * @package UnderStrap
  */
 
 // Exit if accessed directly.
@@ -28,6 +28,6 @@ if ( ! function_exists( 'understrap_scripts' ) ) {
 			wp_enqueue_script( 'comment-reply' );
 		}
 	}
-} // endif function_exists( 'understrap_scripts' ).
+} // End of if function_exists( 'understrap_scripts' ).
 
 add_action( 'wp_enqueue_scripts', 'understrap_scripts' );

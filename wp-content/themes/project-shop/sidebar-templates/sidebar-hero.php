@@ -1,8 +1,8 @@
 <?php
 /**
- * Sidebar - hero setup.
+ * Sidebar - hero setup
  *
- * @package understrap
+ * @package UnderStrap
  */
 
 // Exit if accessed directly.
@@ -43,4 +43,5 @@ defined( 'ABSPATH' ) || exit;
 	jQuery( ".carousel-item" ).first().addClass( "active" );
 	</script>
 
-<?php endif; ?>
+	<?php
+endif;
