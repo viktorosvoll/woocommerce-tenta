@@ -1,8 +1,8 @@
 <?php
 /**
- * Blank content partial template
+ * Blank content partial template.
  *
- * @package UnderStrap
+ * @package understrap
  */
 
 // Exit if accessed directly.

@@ -1,8 +1,8 @@
 <?php
 /**
- * The template for displaying 404 pages (not found)
+ * The template for displaying 404 pages (not found).
  *
- * @package UnderStrap
+ * @package understrap
  */
 
 // Exit if accessed directly.
@@ -49,11 +49,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 										<?php
 										wp_list_categories(
 											array(
-												'orderby'  => 'count',
-												'order'    => 'DESC',
+												'orderby'    => 'count',
+												'order'      => 'DESC',
 												'show_count' => 1,
-												'title_li' => '',
-												'number'   => 10,
+												'title_li'   => '',
+												'number'     => 10,
 											)
 										);
 										?>
@@ -86,5 +86,4 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 </div><!-- #error-404-wrapper -->
 
-<?php
-get_footer();
+<?php get_footer(); ?>

@@ -4,7 +4,7 @@
  *
  * Template for displaying a page without sidebar even if a sidebar widget is published.
  *
- * @package UnderStrap
+ * @package understrap
  */
 
 // Exit if accessed directly.
@@ -12,11 +12,12 @@ defined( 'ABSPATH' ) || exit;
 
 get_header();
 $container = get_theme_mod( 'understrap_container_type' );
-
-if ( is_front_page() ) {
-	get_template_part( 'global-templates/hero' );
-}
 ?>
+
+<?php if ( is_front_page() ) : ?>
+  <?php get_template_part( 'global-templates/hero' ); ?>
+<?php endif; ?>
+
 
 <div class="wrapper" id="full-width-page-wrapper">
 
@@ -28,17 +29,18 @@ if ( is_front_page() ) {
 
 				<main class="site-main" id="main" role="main">
 
-					<?php
-					while ( have_posts() ) {
-						the_post();
-						get_template_part( 'loop-templates/content', 'page' );
+					<?php while ( have_posts() ) : the_post(); ?>
 
+						<?php get_template_part( 'loop-templates/content', 'page' ); ?>
+
+						<?php
 						// If comments are open or we have at least one comment, load up the comment template.
-						if ( comments_open() || get_comments_number() ) {
+						if ( comments_open() || get_comments_number() ) :
 							comments_template();
-						}
-					}
-					?>
+						endif;
+						?>
+
+					<?php endwhile; // end of the loop. ?>
 
 				</main><!-- #main -->
 
@@ -50,5 +52,4 @@ if ( is_front_page() ) {
 
 </div><!-- #full-width-page-wrapper -->
 
-<?php
-get_footer();
+<?php get_footer(); ?>

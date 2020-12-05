@@ -1,6 +1,6 @@
 <?php
 /**
- * The main template file
+ * The main template file.
  *
  * This is the most generic template file in a WordPress theme
  * and one of the two required files for a theme (the other being style.css).
@@ -8,7 +8,7 @@
  * E.g., it puts together the home page when no home.php file exists.
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
- * @package UnderStrap
+ * @package understrap
  */
 
 // Exit if accessed directly.
@@ -34,23 +34,29 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			<main class="site-main" id="main">
 
-				<?php
-				if ( have_posts() ) {
-					// Start the Loop.
-					while ( have_posts() ) {
-						the_post();
+				<?php if ( have_posts() ) : ?>
+
+					<?php /* Start the Loop */ ?>
+
+					<?php while ( have_posts() ) : the_post(); ?>
+
+						<?php
 
 						/*
 						 * Include the Post-Format-specific template for the content.
 						 * If you want to override this in a child theme, then include a file
 						 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
 						 */
-						get_template_part( 'loop-templates/content', 'blog' );
-					}
-				} else {
-					get_template_part( 'loop-templates/content', 'none' );
-				}
-				?>
+						get_template_part( 'loop-templates/content', get_post_format() );
+						?>
+
+					<?php endwhile; ?>
+
+				<?php else : ?>
+
+					<?php get_template_part( 'loop-templates/content', 'none' ); ?>
+
+				<?php endif; ?>
 
 			</main><!-- #main -->
 
@@ -66,5 +72,4 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 </div><!-- #index-wrapper -->
 
-<?php
-get_footer();
+<?php get_footer(); ?>

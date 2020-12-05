@@ -4,7 +4,7 @@
  *
  * Template for displaying a blank page.
  *
- * @package UnderStrap
+ * @package understrap
  */
 
 // Exit if accessed directly.
@@ -20,12 +20,11 @@ defined( 'ABSPATH' ) || exit;
 	<?php wp_head(); ?>
 </head>
 <body>
-	<?php
-	while ( have_posts() ) {
-		the_post();
-		get_template_part( 'loop-templates/content', 'blank' );
-	}
-	wp_footer();
-	?>
+	<?php while ( have_posts() ) : the_post(); ?>
+
+		<?php get_template_part( 'loop-templates/content', 'blank' ); ?>
+
+	<?php endwhile; // end of the loop. ?>
+	<?php wp_footer(); ?>
 </body>
 </html>

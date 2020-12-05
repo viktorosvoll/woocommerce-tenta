@@ -1,8 +1,8 @@
 <?php
 /**
- * The right sidebar containing the main widget area
+ * The right sidebar containing the main widget area.
  *
- * @package UnderStrap
+ * @package understrap
  */
 
 // Exit if accessed directly.
