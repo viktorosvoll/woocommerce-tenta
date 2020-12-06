@@ -1,2 +1,12 @@
 2020-12-05T22:50:44+00:00 CRITICAL syntax error, unexpected '?>', expecting ')' in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-blog.php on line 44
 
+2020-12-05T23:55:22+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php:38
+Stack trace:
+#0 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(732): require()
+#1 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(676): load_template('C:\\Program File...', false, Array)
+#2 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\archive-product.php(33): get_template_part('loop-templates/...', 'product')
+#4 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template-loader.php(106): include('C:\\Program File...')
+#5 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-blog-header.php(19): require_once('C:\\Program File...')
+#6 C:\Program Files\Ampps\ in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php on line 38
+

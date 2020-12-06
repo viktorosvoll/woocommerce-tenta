@@ -1,0 +1,140 @@
+2020-12-06T00:05:20+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on null in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php:44
+Stack trace:
+#0 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(732): require()
+#1 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(676): load_template('C:\\Program File...', false, Array)
+#2 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\archive-product.php(33): get_template_part('loop-templates/...', 'product')
+#4 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template-loader.php(106): include('C:\\Program File...')
+#5 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-blog-header.php(19): require_once('C:\\Program File...')
+#6 C:\Program Files\Am in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php on line 44
+
+2020-12-06T00:08:44+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php:39
+Stack trace:
+#0 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(732): require()
+#1 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(676): load_template('C:\\Program File...', false, Array)
+#2 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\archive-product.php(33): get_template_part('loop-templates/...', 'product')
+#4 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template-loader.php(106): include('C:\\Program File...')
+#5 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-blog-header.php(19): require_once('C:\\Program File...')
+#6 C:\Program Files\Ampps\ in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php on line 39
+
+2020-12-06T00:09:21+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on null in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php:43
+Stack trace:
+#0 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(732): require()
+#1 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(676): load_template('C:\\Program File...', false, Array)
+#2 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\archive-product.php(33): get_template_part('loop-templates/...', 'product')
+#4 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template-loader.php(106): include('C:\\Program File...')
+#5 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-blog-header.php(19): require_once('C:\\Program File...')
+#6 C:\Program Files\Am in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php on line 43
+
+2020-12-06T00:09:34+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on null in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php:43
+Stack trace:
+#0 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(732): require()
+#1 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(676): load_template('C:\\Program File...', false, Array)
+#2 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\archive-product.php(33): get_template_part('loop-templates/...', 'product')
+#4 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template-loader.php(106): include('C:\\Program File...')
+#5 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-blog-header.php(19): require_once('C:\\Program File...')
+#6 C:\Program Files\Am in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php on line 43
+
+2020-12-06T00:10:13+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on null in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php:43
+Stack trace:
+#0 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(732): require()
+#1 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(676): load_template('C:\\Program File...', false, Array)
+#2 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\archive-product.php(33): get_template_part('loop-templates/...', 'product')
+#4 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template-loader.php(106): include('C:\\Program File...')
+#5 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-blog-header.php(19): require_once('C:\\Program File...')
+#6 C:\Program Files\Am in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php on line 43
+
+2020-12-06T00:11:17+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on null in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php:43
+Stack trace:
+#0 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(732): require()
+#1 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(676): load_template('C:\\Program File...', false, Array)
+#2 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\archive-product.php(33): get_template_part('loop-templates/...', 'product')
+#4 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template-loader.php(106): include('C:\\Program File...')
+#5 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-blog-header.php(19): require_once('C:\\Program File...')
+#6 C:\Program Files\Am in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php on line 43
+
+2020-12-06T00:13:02+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on null in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php:43
+Stack trace:
+#0 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(732): require()
+#1 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(676): load_template('C:\\Program File...', false, Array)
+#2 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\archive-product.php(33): get_template_part('loop-templates/...', 'product')
+#4 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template-loader.php(106): include('C:\\Program File...')
+#5 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-blog-header.php(19): require_once('C:\\Program File...')
+#6 C:\Program Files\Am in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php on line 43
+
+2020-12-06T00:13:23+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on null in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php:43
+Stack trace:
+#0 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(732): require()
+#1 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(676): load_template('C:\\Program File...', false, Array)
+#2 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\archive-product.php(33): get_template_part('loop-templates/...', 'product')
+#4 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template-loader.php(106): include('C:\\Program File...')
+#5 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-blog-header.php(19): require_once('C:\\Program File...')
+#6 C:\Program Files\Am in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php on line 43
+
+2020-12-06T00:14:12+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on null in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php:43
+Stack trace:
+#0 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(732): require()
+#1 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(676): load_template('C:\\Program File...', false, Array)
+#2 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\archive-product.php(33): get_template_part('loop-templates/...', 'product')
+#4 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template-loader.php(106): include('C:\\Program File...')
+#5 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-blog-header.php(19): require_once('C:\\Program File...')
+#6 C:\Program Files\Am in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php on line 43
+
+2020-12-06T00:14:29+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on null in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php:43
+Stack trace:
+#0 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(732): require()
+#1 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(676): load_template('C:\\Program File...', false, Array)
+#2 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\archive-product.php(33): get_template_part('loop-templates/...', 'product')
+#4 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template-loader.php(106): include('C:\\Program File...')
+#5 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-blog-header.php(19): require_once('C:\\Program File...')
+#6 C:\Program Files\Am in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php on line 43
+
+2020-12-06T00:15:40+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on null in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php:43
+Stack trace:
+#0 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(732): require()
+#1 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(676): load_template('C:\\Program File...', false, Array)
+#2 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\archive-product.php(33): get_template_part('loop-templates/...', 'product')
+#4 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template-loader.php(106): include('C:\\Program File...')
+#5 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-blog-header.php(19): require_once('C:\\Program File...')
+#6 C:\Program Files\Am in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php on line 43
+
+2020-12-06T00:15:49+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on null in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php:43
+Stack trace:
+#0 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(732): require()
+#1 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(676): load_template('C:\\Program File...', false, Array)
+#2 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\archive-product.php(33): get_template_part('loop-templates/...', 'product')
+#4 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template-loader.php(106): include('C:\\Program File...')
+#5 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-blog-header.php(19): require_once('C:\\Program File...')
+#6 C:\Program Files\Am in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php on line 43
+
+2020-12-06T00:16:11+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on null in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php:43
+Stack trace:
+#0 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(732): require()
+#1 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(676): load_template('C:\\Program File...', false, Array)
+#2 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\archive-product.php(33): get_template_part('loop-templates/...', 'product')
+#4 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template-loader.php(106): include('C:\\Program File...')
+#5 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-blog-header.php(19): require_once('C:\\Program File...')
+#6 C:\Program Files\Am in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php on line 43
+
+2020-12-06T00:16:27+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on null in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php:43
+Stack trace:
+#0 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(732): require()
+#1 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template.php(676): load_template('C:\\Program File...', false, Array)
+#2 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\archive-product.php(33): get_template_part('loop-templates/...', 'product')
+#4 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template-loader.php(106): include('C:\\Program File...')
+#5 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-blog-header.php(19): require_once('C:\\Program File...')
+#6 C:\Program Files\Am in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php on line 43
+
