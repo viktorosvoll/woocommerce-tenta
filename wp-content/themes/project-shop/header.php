@@ -15,19 +15,22 @@
 
 
 <header>
-   <div class="container d-flex align-items-center justify-content-between">
-   <? if(!empty($logo) ) : ?>
-     <img class="logo img-fluid" src="<? echo esc_url($logo['url']); ?>" alt="<? echo esc_attr($logo['alt']); ?>" >
-   <? endif;?>
+   <div class="container">
+       <div class="row">
+           <div class="col d-flex align-items-center justify-content-between">
+            <? if(!empty($logo) ) : ?>
+                <a href="<?php bloginfo('url');?>"><img class="logo img-fluid" src="<? echo esc_url($logo['url']); ?>" alt="<? echo esc_attr($logo['alt']); ?>" ></a>
+            <? endif;?>
 
-    <?php
-    wp_nav_menu(
-        array(
-            'theme_location' => 'main-menu',
-            'menu_class' => 'main-menu'
-        )
-    );
-        ?>
-
+                <?php
+                wp_nav_menu(
+                    array(
+                        'theme_location' => 'main-menu',
+                        'menu_class' => 'main-menu'
+                    )
+                );
+                ?>
+            </div>
+        </div>
    </div>
 </header>

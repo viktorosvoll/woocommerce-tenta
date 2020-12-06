@@ -24,3 +24,13 @@ register_nav_menus(
         'top' => 'Main Menu', 
     )
 );
+
+register_sidebar(
+    array(
+        'name' => 'Page Sidebar',
+        'id' => 'page-sidebar',
+        'class' => '',
+        'before_title' => '<h4>',
+        'after_title' => '</h4>',
+    )
+);

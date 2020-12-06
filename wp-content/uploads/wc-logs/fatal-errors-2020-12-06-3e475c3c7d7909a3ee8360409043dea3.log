@@ -146,3 +146,21 @@ Stack trace:
 
 2020-12-06T15:20:09+00:00 CRITICAL syntax error, unexpected ''Main Menu'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\functions.php on line 24
 
+2020-12-06T18:24:43+00:00 CRITICAL syntax error, unexpected ';', expecting ':' in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\front-page.php on line 22
+
+2020-12-06T18:40:14+00:00 CRITICAL syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\functions.php on line 32
+
+2020-12-06T18:40:14+00:00 CRITICAL syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\functions.php on line 32
+
+2020-12-06T18:40:47+00:00 CRITICAL syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\functions.php on line 32
+
+2020-12-06T18:41:02+00:00 CRITICAL syntax error, unexpected ''before_title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\functions.php on line 32
+
+2020-12-06T18:41:29+00:00 CRITICAL syntax error, unexpected ''before_title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\functions.php on line 32
+
+2020-12-06T18:41:44+00:00 CRITICAL syntax error, unexpected ''before_title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\functions.php on line 32
+
+2020-12-06T18:41:48+00:00 CRITICAL syntax error, unexpected ''before_title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\functions.php on line 32
+
+2020-12-06T18:41:53+00:00 CRITICAL syntax error, unexpected ''before_title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\functions.php on line 32
+
