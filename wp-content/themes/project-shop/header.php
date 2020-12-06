@@ -9,3 +9,24 @@
 
 </head>
 <body <?php body_class(); ?>>
+
+<? $logo = get_field('site_logo'); ?>
+
+
+
+<header>
+   <div class="container">
+   <? if(!empty($logo) ) : ?>
+     <img class="logo" src="<? echo esc_url($logo['url']); ?>" alt="<? echo esc_attr($logo['alt']); ?>">
+   <? endif;?>
+
+    <?php
+    wp_nav_menu(
+        array(
+            'theme_location' => 'main-menu'
+        )
+    );
+        ?>
+
+   </div>
+</header>

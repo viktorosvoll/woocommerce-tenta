@@ -138,3 +138,11 @@ Stack trace:
 #5 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-blog-header.php(19): require_once('C:\\Program File...')
 #6 C:\Program Files\Am in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\loop-templates\content-product.php on line 43
 
+2020-12-06T15:19:06+00:00 CRITICAL syntax error, unexpected ''Main Menu'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\functions.php on line 24
+
+2020-12-06T15:19:10+00:00 CRITICAL syntax error, unexpected ''Main Menu'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\functions.php on line 24
+
+2020-12-06T15:20:06+00:00 CRITICAL syntax error, unexpected ''Main Menu'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\functions.php on line 24
+
+2020-12-06T15:20:09+00:00 CRITICAL syntax error, unexpected ''Main Menu'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\functions.php on line 24
+
