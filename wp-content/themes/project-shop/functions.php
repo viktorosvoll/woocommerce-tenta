@@ -18,13 +18,15 @@ add_action('wp_enqueue_scripts', 'load_javascript');
 
 //Add menus
 add_theme_support('menus');
-
+add_theme_support('post-thumbnails');
 register_nav_menus(
     array(
-        'top' => 'Main Menu', 
+        'top-menu' => 'Top Menu', 
     )
 );
 
+
+// Add sidebar
 register_sidebar(
     array(
         'name' => 'Page Sidebar',
@@ -34,3 +36,23 @@ register_sidebar(
         'after_title' => '</h4>',
     )
 );
+
+// Add sidebar
+register_sidebar(
+    array(
+        'name' => 'Blog Sidebar',
+        'id' => 'blog-sidebar',
+        'class' => '',
+        'before_title' => '<h4>',
+        'after_title' => '</h4>',
+    )
+);
+
+//Image size
+add_image_size('post_image', 1100, 550, false);
+
+function mytheme_add_woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
+
+add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );

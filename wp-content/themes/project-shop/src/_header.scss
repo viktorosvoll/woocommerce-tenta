@@ -7,9 +7,9 @@ header{
         width: 100px;
     }
 
-   
+ 
 
-    .main-menu ul{
+    .top-menu{
         
         display: none;
         
@@ -28,19 +28,11 @@ header{
                 display: block;
                 padding: .25rem 1rem;
                 color: black;
-                font-size: 1.1rem;
+                font-size: 1.3rem;
                 font-weight: bold;
             }
         }
         
     }
-
-    /* .main-menu ul{
-       
-
-        list-style-type: none;
-        display: flex;
-    } */
-
    
 }
