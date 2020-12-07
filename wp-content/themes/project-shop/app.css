@@ -10031,6 +10031,17 @@ footer {
   border-radius: 0.5rem;
 }
 
+.woocommerce .woocommerce-input-wrapper {
+  display: block;
+  width: 100%;
+}
+.woocommerce .product {
+  margin-top: 3% !important;
+}
+.woocommerce .page-title {
+  margin-top: 5% !important;
+}
+
 .content {
   height: 1000px;
   padding: 3rem 0;
