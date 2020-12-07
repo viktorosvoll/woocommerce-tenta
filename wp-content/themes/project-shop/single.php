@@ -6,6 +6,7 @@
     <div class="container">
 
         <div class="row">
+            
             <div class="col-lg-3"> 
                 <div class="sticky-top" style="top: 50px;">
                     <?php dynamic_sidebar('blog-sidebar'); ?>
@@ -14,8 +15,6 @@
 
             <div class="col-lg-9">
                     
-                
-
                 <?php if(have_posts()) : while(have_posts()) : the_post();?>
 
 
@@ -33,14 +32,11 @@
 
             </div>
 
-
         </div>
 
-    
-
-
     </div>
- </div>
+
+</div>
 
 
 
