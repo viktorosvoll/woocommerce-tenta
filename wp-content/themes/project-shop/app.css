@@ -10042,6 +10042,15 @@ footer {
   margin-top: 5% !important;
 }
 
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+  padding: 1rem;
+  background: black;
+}
+
+.single-product-container {
+  background-color: purple;
+}
+
 .content {
   height: 1000px;
   padding: 3rem 0;
@@ -10058,4 +10067,8 @@ footer {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.single-product-container {
+  background-color: purple !important;
 }

@@ -1,0 +1,12 @@
+2020-12-07T14:36:00+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\plugins\woocommerce\templates\content-product.php on line 20
+
+2020-12-07T14:36:30+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\plugins\woocommerce\templates\content-product.php on line 20
+
+2020-12-07T15:51:21+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on string in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\woocommerce\single-product.php:24
+Stack trace:
+#0 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-includes\template-loader.php(106): include()
+#1 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-blog-header.php(19): require_once('C:\\Program File...')
+#2 C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\index.php(17): require('C:\\Program File...')
+#3 {main}
+  thrown in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\themes\project-shop\woocommerce\single-product.php on line 24
+

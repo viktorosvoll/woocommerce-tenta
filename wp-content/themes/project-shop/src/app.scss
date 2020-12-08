@@ -5,6 +5,7 @@
 @import 'footer';
 @import 'blog';
 @import 'woocommerce';
+@import 'single-product';
 
 .content{
     height: 1000px;
@@ -24,3 +25,9 @@
         padding: 0;
     }
 }
+
+.single-product-container{
+    background-color: purple !important;
+}
+
+
