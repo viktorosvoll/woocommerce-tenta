@@ -16,5 +16,5 @@ mix.options({
 })
 .js('src/app.js', './')
 .sass('src/app.scss', './', [
-        //
+        
     ]);

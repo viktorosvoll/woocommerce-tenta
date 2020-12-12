@@ -14,7 +14,7 @@
 
 
 
-<header>
+<header style="background-color: #f5f5dc;">
    <div class="container">
        <div class="row">
            <div class="col d-flex align-items-center justify-content-between">

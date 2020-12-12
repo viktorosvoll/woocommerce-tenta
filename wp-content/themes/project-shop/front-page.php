@@ -14,24 +14,26 @@
 </div>
 
 
-<div class="content">
+<div class="content" style="background-color: #f5f5dc;">
 
     <div class="container">
 
         <div class="row">
-                <div class="col-lg-3"> 
-                    <div class="sticky-top" style="top: 50px;">
-                        <?php get_sidebar(); ?>
-                    </div>
-                </div>
+
 
             <?php if(have_posts()) : while(have_posts()) : the_post();?>
 
-            <?php  get_template_part('archive-blog_post'); ?>
+                <div class="container d-flex justify-content-center contact-form" style="border: 1px solid black;">
+                    <?php the_content(); ?>
+                </div>
+
+            
 
             <?php endwhile; else: endif; ?>
 
         </div>
+
     </div>
+
 </div>
 <?php get_footer(); ?>

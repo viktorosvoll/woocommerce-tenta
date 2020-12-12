@@ -6,10 +6,11 @@
 @import 'blog';
 @import 'woocommerce';
 @import 'single-product';
+@import 'event';
 
 .content{
-    height: 1000px;
     padding: 3rem 0;
+    background-color: #f5f5dc;
 }
 
 .widget{
@@ -28,6 +29,10 @@
 
 .single-product-container{
     background-color: purple !important;
+}
+
+.contact-form{
+    background-color: pink;
 }
 
 
