@@ -10007,9 +10007,9 @@ header .top-menu li a {
   width: 100%;
   background: #f0f0f0;
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   #hero {
-    height: 450px;
+    display: none;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -10094,6 +10094,19 @@ p {
   display: none;
 }
 
+.woocommerce-loop-product__title {
+  text-align: center;
+}
+
+.col-lg-4 {
+  text-align: center !important;
+}
+
+bdi {
+  text-align: center;
+  color: green;
+}
+
 .single-product-container {
   background-color: purple;
 }
@@ -10131,4 +10144,8 @@ p {
 
 .contact-form {
   background-color: pink;
+}
+
+.portfolio-description {
+  margin: 0;
 }

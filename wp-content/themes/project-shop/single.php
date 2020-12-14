@@ -33,6 +33,7 @@
                 <p class="event-description"><?php the_field('event_description'); ?></p>
                 <p class="event-description"><?php the_field('event_adress'); ?></p>
                 <p class="event-description"><?php the_field('event_time'); ?></p>
+                <p class="portfolio-descrption"><?php the_field('portfolio_description'); ?></p>
 
 
 

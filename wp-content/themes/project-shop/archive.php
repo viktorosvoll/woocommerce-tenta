@@ -14,9 +14,14 @@
                     <a href="<?php the_permalink(); ?>">
                     
                     <?php $event_image = get_field('event_image'); ?>
+                    <?php $portfolio_image = get_field('portfolio_image'); ?>
 
                     <? if(!empty($event_image) ) : ?>
                         <img class="img-fluid event-image" src="<? echo esc_url($event_image['url']); ?>" alt="<? echo esc_attr($event_image['alt']); ?>">
+                     <? endif; ?>
+
+                     <? if(!empty($portfolio_image) ) : ?>
+                        <img class="img-fluid event-image" src="<? echo esc_url($portfolio_image['url']); ?>" alt="<? echo esc_attr($portfolio_image['alt']); ?>">
                      <? endif; ?>
 
                     <?php if(has_post_thumbnail()):?>
@@ -26,9 +31,10 @@
                     <?php endif; ?>
 
                      <h1 class="blog-event-title"><?php the_title(); ?></h1>
-                     <?php the_field('event_adress'); ?>
-                    <?php the_field('event_time'); ?>
                     </a>
+                    <?php the_field('event_adress'); ?>
+                    <?php the_field('event_time'); ?>
+                    <?php the_field('portfolio_description'); ?>
 
                      <?php the_excerpt(); ?>
 
