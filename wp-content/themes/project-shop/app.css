@@ -10052,11 +10052,6 @@ footer {
   margin-left: 50px;
 }
 
-p {
-  width: 90%;
-  margin-left: 5%;
-}
-
 .widget {
   background-color: rgba(255, 255, 255, 0.9);
 }
@@ -10107,6 +10102,17 @@ bdi {
   color: green;
 }
 
+.wc-stripe-elements-field {
+  width: 300px;
+}
+
+.woocommerce-order {
+  background-color: #FFF;
+  padding: 2%;
+  box-shadow: 3px 5px 10px black;
+  border-radius: 0.5rem;
+}
+
 .single-product-container {
   background-color: purple;
 }
@@ -10143,7 +10149,21 @@ bdi {
 }
 
 .contact-form {
-  background-color: pink;
+  background-color: darkgoldenrod;
+  width: 50%;
+  border-radius: 0.5rem;
+  box-shadow: 3px 6px 10px black;
+  padding: 1%;
+}
+@media screen and (max-width: 768px) {
+  .contact-form {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .contact-form {
+    width: 100%;
+  }
 }
 
 .portfolio-description {

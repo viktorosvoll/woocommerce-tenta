@@ -31,11 +31,26 @@
     background-color: purple !important;
 }
 
+
 .contact-form{
-    background-color: pink;
+    background-color: darkgoldenrod;
+    width: 50%;
+    border-radius: 0.5rem;
+    box-shadow: 3px 6px 10px black;
+    padding: 1%;
+
+    @media screen and (max-width:768px){
+        width: 80%;
+}
+
+@media screen and (max-width:420px){
+    width: 100%;
+}
+
 }
 
 .portfolio-description{
     margin: 0;
 }
+
 
