@@ -9,7 +9,7 @@
 <div id="hero" style="background-image: url(<?php the_field('hero_image'); ?>); background-size: cover;">
     <div class="container d-flex align-items-center justify-content-center h-100">
       
-        <h1>Welcome to the Coffee Shop</h1>
+        <h1><?php _e('WELCOME TO MY SHOP'); ?></h1>
     </div>
 </div>
 

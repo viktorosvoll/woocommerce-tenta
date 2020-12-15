@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Coffee Shop</title>
+    <title><?php _e('The Coffee Shop'); ?></title>
 
     <?php wp_head(); ?>
 

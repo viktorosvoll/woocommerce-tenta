@@ -42,7 +42,7 @@
         
                 <?php the_content(); ?>
 
-                <p class="single-author">By: <a href="<?php the_permalink()?>"><?php the_author(); ?></p></a>
+                <p class="single-author"><?php _e('By'); ?>: <a href="<?php the_permalink()?>"><?php the_author(); ?></p></a>
 
                 <?php endwhile; else: endif; ?>
 
