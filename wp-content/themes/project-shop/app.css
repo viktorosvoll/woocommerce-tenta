@@ -9972,7 +9972,7 @@ h3 {
   }
 }
 header {
-  background: #f5f5dc;
+  background: #fff;
   padding: 1rem 0;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
 }
@@ -10040,12 +10040,10 @@ footer {
 .blog-event-title {
   text-align: center;
   font-size: 30px;
-  color: brown;
 }
 
 .blog-event-title:hover {
   border-bottom: none;
-  color: brown;
 }
 
 .blog-event-excerpt {
@@ -10095,6 +10093,7 @@ footer {
 
 .col-lg-4 {
   text-align: center !important;
+  margin-top: 3%;
 }
 
 bdi {
@@ -10123,7 +10122,25 @@ bdi {
 }
 
 .event-description {
-  margin: 0;
+  font-weight: bold;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.event-adress {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.event-time {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.single-author {
+  text-align: center;
 }
 
 .content {
@@ -10168,4 +10185,27 @@ bdi {
 
 .portfolio-description {
   margin: 0;
+}
+
+.shop-product-items {
+  margin-top: 1%;
+}
+
+.post-titles {
+  font-style: italic;
+  text-align: center;
+}
+
+.portfolio-description {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+}
+
+@media screen and (max-width: 992px) {
+  .post-sidebar {
+    display: none;
+  }
 }

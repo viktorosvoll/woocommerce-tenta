@@ -32,10 +32,10 @@
 
                      <h1 class="blog-event-title"><?php the_title(); ?></h1>
                     </a>
-                    <?php the_field('event_adress'); ?>
-                    <?php the_field('event_time'); ?>
-                    <?php the_field('portfolio_description'); ?>
-
+                   <p><b><?php the_field('event_adress'); ?></b></p>
+                   <p><b><?php the_field('event_time'); ?></b></p>
+                   <p><b><?php the_field('portfolio_description'); ?></b></p>
+                    
                      <?php the_excerpt(); ?>
 
                     </div>

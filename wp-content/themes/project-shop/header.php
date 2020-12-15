@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>The Coffee Shop</title>
 
     <?php wp_head(); ?>
 
@@ -14,7 +14,7 @@
 
 
 
-<header style="background-color: #f5f5dc;">
+<header>
    <div class="container">
        <div class="row">
            <div class="col d-flex align-items-center justify-content-between">

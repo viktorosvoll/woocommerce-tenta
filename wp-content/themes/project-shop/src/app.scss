@@ -53,4 +53,28 @@
     margin: 0;
 }
 
+.shop-product-items{
+    margin-top: 1%;
+}
+
+.post-titles{
+    font-style: italic;
+    text-align: center;
+}
+
+.portfolio-description{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.post-sidebar{
+    @media screen and (max-width: 992px) {
+        display: none;
+    }
+}
+
+
 
