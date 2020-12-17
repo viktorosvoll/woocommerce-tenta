@@ -5,7 +5,7 @@ jQuery( function($){
 
     WCML_Setup.init = function(){
 
-        $(function() {
+        $(document).ready(function() {
 
             $('.wcml-setup-form').on( 'click', 'a.submit', function(){
 

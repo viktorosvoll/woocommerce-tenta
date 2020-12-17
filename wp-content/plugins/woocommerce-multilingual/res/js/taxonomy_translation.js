@@ -1,4 +1,4 @@
-jQuery(function ($) {
+jQuery(document).ready(function ($) {
 
     if (typeof TaxonomyTranslation != 'undefined') {
 
@@ -37,13 +37,13 @@ jQuery(function ($) {
 
     function disable_tax_translation_toggling() {
         $('.wcml-tax-translation-list .actions a')
-            .on('click', tax_translation_toggling_return_false)
+            .bind('click', tax_translation_toggling_return_false)
             .css({cursor: 'wait'});
     }
 
     function enable_tax_translation_toggling() {
         $('.wcml-tax-translation-list .actions a')
-            .off('click')
+            .unbind('click', tax_translation_toggling_return_false)
             .css({cursor: 'pointer'});
     }
 

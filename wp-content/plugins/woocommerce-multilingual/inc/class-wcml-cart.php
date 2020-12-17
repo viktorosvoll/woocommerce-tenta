@@ -219,7 +219,7 @@ class WCML_Cart {
 		</div>
 
 		<script type="text/javascript">
-		  jQuery(function () {
+		  jQuery(document).ready(function () {
 			  var dialogBox = jQuery("#wcml-cart-dialog-confirm");
 			  dialogBox.dialog({
 				  resizable: false,

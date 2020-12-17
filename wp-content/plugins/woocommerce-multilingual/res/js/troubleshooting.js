@@ -5,7 +5,7 @@ jQuery( function($) {
 
         init:  function(){
 
-            $(function(){
+            $(document).ready( function(){
 
                 //troubleshooting page
                 jQuery('#wcml_trbl').on('click',function(){

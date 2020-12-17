@@ -1,4 +1,4 @@
-jQuery(function(){
+jQuery(document).ready(function(){
     jQuery(document).on('click', '#wcml_translations_message', function( e ){
         e.preventDefault();
         jQuery.ajax({

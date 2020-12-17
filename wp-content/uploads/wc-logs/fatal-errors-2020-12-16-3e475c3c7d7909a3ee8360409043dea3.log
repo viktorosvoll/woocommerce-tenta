@@ -1,0 +1,6 @@
+2020-12-16T16:57:57+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\plugins\woocommerce-multilingual\classes\Tax\Strings\Hooks.php on line 8
+
+2020-12-16T17:00:01+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\plugins\wpml-translation-management\classes\notices\AteLockNotice.php on line 8
+
+2020-12-16T17:02:02+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\Program Files\Ampps\www\shop-tenta\woocommerce-tenta\wp-content\plugins\sitepress-multilingual-cms\vendor\otgs\installer\includes\debug\class-otgs-installer-logger-storage.php on line 3
+

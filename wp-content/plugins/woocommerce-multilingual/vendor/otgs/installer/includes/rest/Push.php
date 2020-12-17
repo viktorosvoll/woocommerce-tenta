@@ -17,7 +17,6 @@ class Push {
 			[
 				'methods'  => 'GET',
 				'callback' => self::class . '::fetch_subscription',
-				'permission_callback' => '__return_true',
 			]
 		);
 	}

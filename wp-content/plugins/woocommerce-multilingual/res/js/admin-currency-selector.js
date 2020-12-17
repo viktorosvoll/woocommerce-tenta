@@ -1,4 +1,4 @@
-jQuery(function () {
+jQuery(document).ready(function () {
     var dashboard_dropdown = jQuery('#dropdown_dashboard_currency').clone();
     jQuery('#dropdown_dashboard_currency').remove();
     dashboard_dropdown.insertBefore('.sales-this-month a').show();
