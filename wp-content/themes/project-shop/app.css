@@ -10069,6 +10069,7 @@ footer {
 
 .woocommerce ul.products li.product .woocommerce-loop-product__title {
   font-size: 25px;
+  margin-top: 1%;
 }
 
 .woocommerce ul.products li.product .price {
@@ -10089,6 +10090,7 @@ footer {
 
 .woocommerce-loop-product__title {
   text-align: center;
+  margin-top: 3%;
 }
 
 .col-lg-4 {
@@ -10098,7 +10100,7 @@ footer {
 
 bdi {
   text-align: center;
-  color: green;
+  color: #5c995c;
 }
 
 .wc-stripe-elements-field {
@@ -10110,6 +10112,15 @@ bdi {
   padding: 2%;
   box-shadow: 3px 5px 10px black;
   border-radius: 0.5rem;
+}
+
+.woocommerce img, .woocommerce-page img {
+  box-shadow: 3px 5px 12px black;
+  margin-top: 1%;
+}
+
+.wpml-ls-display {
+  display: none;
 }
 
 .single-product-container {

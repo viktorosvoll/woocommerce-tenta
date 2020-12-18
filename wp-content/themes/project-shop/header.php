@@ -19,7 +19,7 @@
        <div class="row">
            <div class="col d-flex align-items-center justify-content-between">
             <? if(!empty($logo) ) : ?>
-                <a href="<?php bloginfo('url');?>"><img class="logo img-fluid" src="<? echo esc_url($logo['url']); ?>" alt="<? echo esc_attr($logo['alt']); ?>" ></a>
+                <a href="<?php bloginfo('url');?>"><img class="logo img-fluid" src="<? echo esc_url($logo['url']); ?>"></a>
             <? endif;?>
 
                 <?php

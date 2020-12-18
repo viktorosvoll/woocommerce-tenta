@@ -17,11 +17,11 @@
                     <?php $portfolio_image = get_field('portfolio_image'); ?>
 
                     <? if(!empty($event_image) ) : ?>
-                        <img class="img-fluid event-image" src="<? echo esc_url($event_image['url']); ?>" alt="<? echo esc_attr($event_image['alt']); ?>">
+                        <img class="img-fluid event-image" src="<? echo esc_url($event_image['url']); ?>">
                      <? endif; ?>
 
                      <? if(!empty($portfolio_image) ) : ?>
-                        <img class="img-fluid event-image" src="<? echo esc_url($portfolio_image['url']); ?>" alt="<? echo esc_attr($portfolio_image['alt']); ?>">
+                        <img class="img-fluid event-image" src="<? echo esc_url($portfolio_image['url']); ?>">
                      <? endif; ?>
 
                     <?php if(has_post_thumbnail()):?>
